@@ -1,1 +1,7 @@
-#Not added really
+#To run Finance.py in the terminal these must be run successfully beforehand.
+
+python -m venv venv
+.\venv\Scripts\activate
+pip install scikit-learn pandas yfinance streamlit plotly
+pip uninstall pandas-ta -y
+streamlit run Finance.py

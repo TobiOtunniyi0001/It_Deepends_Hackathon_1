@@ -1,0 +1,13 @@
+x/y/z: Cycle projection axes.
+0-9: Select dimension for movement.
+Up/Down: Move camera along selected dimension.
++/-: Adjust focal length.
+r: Refresh data.
+
+
+
+
+Check for Black Screen:
+
+If the screen remains black, note whether it’s during the configuration phase (no input boxes) or after entering dimensions (no projection).
+Share the console output, especially any errors.

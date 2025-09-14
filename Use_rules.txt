@@ -1,14 +1,7 @@
 Verify Visualization:
-
-The screen should resize to 400x300 and display the projection (red/green points, as seen previously).
-Use controls:
-
-x/y/z: Cycle projection axes.
-0-9: Select dimension for movement.
-Up/Down: Move camera along selected dimension.
-+/-: Adjust focal length.
-r: Refresh data.
-
+For Finance.py
+#To run Finance.py in the terminal these must be run successfully beforehand.
+python -m venv venv .\venv\Scripts\activate pip install scikit-learn pandas yfinance streamlit plotly pip uninstall pandas-ta -y streamlit run Finance.py
 
 
 For Projection.py
@@ -24,3 +17,4 @@ x/y/z: Cycle axes.
 r: Refresh data.
 Shift+R: Reset camera.
 Debug overlay shows ~90 points and camera stats.
+

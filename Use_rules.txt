@@ -11,8 +11,16 @@ r: Refresh data.
 
 
 
-
-Check for Black Screen:
-
-If the screen remains black, note whether it’s during the configuration phase (no input boxes) or after entering dimensions (no projection).
-Share the console output, especially any errors.
+For Projection.py
+Test camera controls:
+W/S: Move forward/backward.
+A/D: Strafe left/right.
+Left/Right Arrows: Rotate yaw.
+Up/Down Arrows: Rotate pitch.
+Shift: Hold for half-speed.
+Right-click: Toggle mouse rotation.
+x/y/z: Cycle axes.
++/-: Adjust focal length.
+r: Refresh data.
+Shift+R: Reset camera.
+Debug overlay shows ~90 points and camera stats.

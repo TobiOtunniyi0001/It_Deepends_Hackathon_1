@@ -1,22 +1,18 @@
 Verify Visualization:
-For Finance.py
-#To run Finance.py in the terminal these must be run successfully beforehand.
-python -m venv venv .\venv\Scripts\activate pip install scikit-learn pandas yfinance streamlit plotly pip uninstall pandas-ta -y streamlit run Finance.py
-If you want a code snippet to run this on then check Using Finance.py
 
+The screen should resize to 400x300 and display the projection (red/green points, as seen previously).
+Use controls:
 
-For Projection.py
-Test camera controls:
-W/S: Move forward/backward.
-A/D: Strafe left/right.
-Left/Right Arrows: Rotate yaw.
-Up/Down Arrows: Rotate pitch.
-Shift: Hold for half-speed.
-Right-click: Toggle mouse rotation.
-x/y/z: Cycle axes.
+x/y/z: Cycle projection axes.
+0-9: Select dimension for movement.
+Up/Down: Move camera along selected dimension.
 +/-: Adjust focal length.
 r: Refresh data.
-Shift+R: Reset camera.
-Debug overlay shows ~90 points and camera stats.
 
 
+
+
+Check for Black Screen:
+
+If the screen remains black, note whether it’s during the configuration phase (no input boxes) or after entering dimensions (no projection).
+Share the console output, especially any errors.

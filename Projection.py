@@ -95,8 +95,8 @@ mouse_captured = False
 CACHE_FILE = 'crypto_data.csv'
 CACHE_TIMESTAMP_FILE = 'crypto_cache_timestamp.txt'
 REQUEST_DELAY = 15
-RETRY_DELAY = 15
-USE_COINGECKO = True
+RETRY_DELAY = 60  # Increased to avoid 429 errors
+USE_COINGECKO = False
 
 # Background color (light blue)
 BACKGROUND_COLOR = (135, 206, 250)

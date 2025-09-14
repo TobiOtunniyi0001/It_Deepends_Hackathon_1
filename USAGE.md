@@ -1,1 +1,20 @@
+Verify Visualization:
+For Finance.py
+#To run Finance.py in the terminal these must be run successfully beforehand.
+python -m venv venv .\venv\Scripts\activate pip install scikit-learn pandas yfinance streamlit plotly pip uninstall pandas-ta -y streamlit run Finance.py
+If you want a code snippet to run this on then check Using Finance.py
 
+
+For Projection.py
+Test camera controls:
+W/S: Move forward/backward.
+A/D: Strafe left/right.
+Left/Right Arrows: Rotate yaw.
+Up/Down Arrows: Rotate pitch.
+Shift: Hold for half-speed.
+Right-click: Toggle mouse rotation.
+x/y/z: Cycle axes.
++/-: Adjust focal length.
+r: Refresh data.
+Shift+R: Reset camera.
+Debug overlay shows ~90 points and camera stats.
